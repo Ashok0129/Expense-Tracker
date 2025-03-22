@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker 2023</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+
+        <!-- Available Cash Section -->
+        <div class="available-cash">
+            <label for="available-cash">Enter Available Cash:</label>
+            <input type="number" id="available-cash" placeholder="Enter Available Cash" value="0">
+        </div>
+
+        <!-- Add Expense Form -->
+        <div class="form-container">
+            <input type="text" id="expense-name" placeholder="Expense Name" required>
+            <input type="number" id="expense-amount" placeholder="Amount" required>
+            <button onclick="addExpense()">Add Expense</button>
+            <button onclick="resetExpenses()">Reset Expenses</button>
+        </div>
+        
+        <h2>Expense History</h2>
+        <div id="expense-history"></div>
+
+        <h3>Total Expenditure: $<span id="total-amount">0</span></h3>
+        <h3>Remaining Cash: $<span id="remaining-cash">0</span></h3>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
