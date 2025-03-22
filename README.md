@@ -1,0 +1,1 @@
+The Expense Tracker website is a simple, intuitive web application that allows users to track their personal expenses, categorize them, and gain insights into their spending habits. The app offers a user-friendly interface to record, view, and analyze expenses, making it easier to manage finances effectively.
